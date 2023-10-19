@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Your Name - Resume</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section class='flex-container' id="about">
+        
+        <div class="descr">
+            <h2>Hello, my name is NGOGA Beni ADORIS</h2>
+            <h1>Welcome to my RESUME website</h1>
+            <p>I am a year two student at ALU in the Software Engineering department.This website showcases the skills that I have acquired in my career of software engineering.</p>
+        </div>
+        <div class="picture">
+            <img src="pictures/adoris.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <!--create a counter that displays your knowledge statistics-->
+    <section id="skills" class="hidden">
+        <h2>Skills</h2>
+        <div class="chart">
+            <div class="skill">
+                <div class="skill-name">Web Stack Debugging</div>
+                <div class="progress-bar">
+                    <div class="progress" id="web-debug-progress">80%</div>
+                </div>
+            </div>
+    
+            <div class="skill">
+                <div class="skill-name">API</div>
+                <div class="progress-bar">
+                    <div class="progress" id="api-progress">70%</div>
+                </div>
+            </div>
+    
+            <div class="skill">
+                <div class="skill-name">MySQL</div>
+                <div class="progress-bar">
+                    <div class="progress" id="mysql-progress">75%</div>
+                </div>
+            </div>
+    
+            <div class="skill">
+                <div class="skill-name">HTML</div>
+                <div class="progress-bar">
+                    <div class="progress" id="html-progress">90%</div>
+                </div>
+            </div>
+    
+            <div class="skill">
+                <div class="skill-name">CSS</div>
+                <div class ="progress-bar">
+                    <div class="progress" id="css-progress">85%</div>
+                </div>
+            </div>
+    
+            <div class="skill">
+                <div class="skill-name">JavaScript</div>
+                <div class="progress-bar">
+                    <div class="progress" id="javascript-progress">80%</div>
+                </div>
+            </div>
+    
+            <div class="skill">
+                <div class="skill-name">Flask</div>
+                <div class="progress-bar">
+                    <div class="progress" id="flask-progress">70%</div>
+                </div>
+            </div>
+    
+            <div class="skill">
+                <div class="skill-name">Shell</div>
+                <div class="progress-bar">
+                    <div class="progress" id="shell-progress">75%</div>
+                </div>
+            </div>
+    
+            <div class="skill">
+                <div class="skill-name">Python</div>
+                <div class="progress-bar">
+                    <div class="progress" id="python-progress">75%</div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Projects Section -->
+    <!--api that redirects to my github account-->
+    <section id="projects" class="hidden">
+        <h2>Projects</h2>
+        <div class="container">
+            <h1>GitHub Redirect</h1>
+            <form action="/github" method="get">
+                <button type="submit">Go to GitHub</button>
+            </form>
+       </div>
+    </section>
+
+   
+    
+    <script src="script.js"></script>
+</body>
+</html>
